@@ -11,6 +11,6 @@ CREATE TABLE if not exists ratings (
 ) ENGINE=InnoDB;
 
 
-GRANT ALL ON ratings.* TO 'ratings'@'%'
-IDENTIFIED BY 'iloveit';
+GRANT ALL ON ratings.* TO 'ratings'@'%' IDENTIFIED BY 'iloveit';
+GRANT ALL ON ratings.* TO 'ratings'@'localhost' IDENTIFIED BY 'iloveit';
 
